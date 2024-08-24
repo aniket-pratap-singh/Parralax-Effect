@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+
+}
+
+
+
+
+
+#I{
+    position: absolute;
+    top: 10rem;
+    color: white;
+    font-size: 9rem;
+    font-weight: 10px;
+    text-shadow: 0px 0px 10px black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container1{
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+    height: 100%;
+    transform-style: preserve-3d ;
+    z-index: -1;
+
+
+}
+
+
+.background{
+
+    transform: translateZ(-40px) scale(6);
+}
+
+.foreground{
+
+    transform: translateZ(-20px) scale(3);
+}
+
+.background, .foreground{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.secheading{
+    padding: 0 10rem;
+    font-size: 5rem;
+}
+
+.text{
+
+    padding: 0 10rem;
+    margin: 5rem 0;
+    font-size: 1.5rem;
+}
+
+
+
+section{
+    background-color: rgb(45,45, 45);
+    color: white;
+    padding: 5rem 0;
+}
+
+.bg{
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.desc{
+
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+    font-size: 5rem;
+    top: 50%;
+    left: 50%;
+    font-size: 3.5rem;
+    transform: translateX(-50% );
+    font-weight: 600 ;
+
+}
+
+
+
+.bg1{
+    background-image: url(https://static.wanderon.in/wp-content/uploads/2023/02/135403-2-1.jpg);
+}
+
+
+.bg2{
+
+    background-image: url(https://eia476h758b.exactdn.com/wp-content/uploads/2023/07/Paraglider-Albania.jpeg?strip=all&lossy=1&ssl=1);
+}
+
+.bg3{
+    background-image: url(https://images.unsplash.com/photo-1502680390469-be75c86b636f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VyZmluZ3xlbnwwfHwwfHx8MA%3D%3D);
+    
+}
+
